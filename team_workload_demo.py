@@ -6,7 +6,7 @@ import argparse
 import csv
 import io
 import unittest
-from collections.abc import TextIO
+from typing import TextIO
 from decimal import Decimal, InvalidOperation
 from pathlib import Path
 
